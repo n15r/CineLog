@@ -55,3 +55,9 @@
 
 ## Context
   This project, conducted as part of the third year curriculum at the Moroccan School of Engineering Sciences 
+## Features to be added 
+
+* **Introduce user authentication for account creation and saving ratings and reviews.**
+* **Enhance movie search to allow filtering by year, genre, and more.**
+* **Display top-rated movies on the home page for a quick pick-me-up.**
+
