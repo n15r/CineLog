@@ -65,7 +65,7 @@
 
 * Email: nassim.lachkar@emsi-edu.ma
 * Github: [@nashunch0](https://github.com/nashunch0/)
-* LinkedIn: [N.L](https://www.linkedin.com/in/nlachkar/)
+* LinkedIn: [https://www.linkedin.com/in/nlachkar/](https://www.linkedin.com/in/nlachkar/)
 
 ## Show your support
 
