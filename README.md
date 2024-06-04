@@ -9,8 +9,7 @@
   <a href="https://www.sqlite.org/"><img src="https://img.shields.io/badge/SQLite-3-blue.svg" alt="SQLite"></a>
   <a href="https://www.themoviedb.org/documentation/api"><img src="https://img.shields.io/badge/MovieDBAPI-3-blue.svg" alt="Movie DB API"></a>
   <a href="https://github.com/nashunch0/CineLog/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"></a>
-  <a href="https://github.com/nashunch0/CineLog"><img src="https://img.shields.io/github/stars/your-username/movie-rating-web-app.svg?style=social&label=Star" alt="GitHub stars"></a>
-  <a href="https://github.com/nashunch0/CineLog/fork"><img src="https://img.shields.io/github/forks/your-username/movie-rating-web-app.svg?style=social&label=Fork" alt="GitHub forks"></a>
+
 </p>
 </div>
 
