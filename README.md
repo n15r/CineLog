@@ -1,5 +1,5 @@
 <div align="center">
-<h1> 🍿 CineLog</h1>
+<h1> 🎬 CineLog</h1>
 
 <p>
   <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3.8%2B-blue.svg" alt="Python"></a>
