@@ -1,6 +1,6 @@
 <div align="center">
 <h1> 🎬 CineLog</h1>
-
+<p>Python Flask-Based Movie Rating Application </p>
 <p>
   <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3.8%2B-blue.svg" alt="Python"></a>
   <a href="https://flask.palletsprojects.com/"><img src="https://img.shields.io/badge/Flask-1.1.2-blue.svg" alt="Flask"></a>
