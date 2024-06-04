@@ -1,5 +1,6 @@
 <div align="center">
-<h1> 🎬 CineLog</h1>
+  <img src="https://github.com/nashunch0/CineLog/blob/main/OIG2.jpeg" alt="Logo CineLog" style="width:200px;height:200px;")>
+<h1>  CineLog</h1>
 <p>Python Flask-Based Movie Rating Application </p>
 <p>
   <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3.8%2B-blue.svg" alt="Python"></a>
@@ -12,6 +13,12 @@
 
 </p>
 </div>
+
+
+
+## Interface
+<img src="https://github.com/nashunch0/CineLog/blob/main/Screenshot.png" alt="Screenshot">
+
 
 
 ## Technologies Used 🛠️
