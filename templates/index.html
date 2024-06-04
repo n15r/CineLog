@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block title %}CineRate{% endblock %}
+
+{%block content %}
+<div class="container">
+  <h1 class="heading">CineRate</h1>
+  <p class="description">Mon Catalogue:</p>
+
+  {% for movie in movies %}
+  <div class="card">
+    <div class="front" style="background-image: url('{{movie.img_url}}');">
+      <p class="large">{{ movie.ranking }}</p>
+    </div>
+    <div class="back">
+      <div>
+        <div class="title">
+          {{movie.title}} <span class="release_date">({{movie.year}})</span>
+        </div>
+        <div class="rating">
+          <label>{{movie.rating}}</label>
+          <i class="fas fa-star star"></i>
+        </div>
+        <p class="review">"{{movie.review}}"</p>
+        <p class="overview">{{movie.description}}</p>
+
+        <!--BUTTONS TO CHANGE MOVIE-->
+        <a href="{{ url_for('rate_movie', id=movie.id) }}" class="button">Changer </a>
+
+          <a href="{{ url_for('delete_movie', id=movie.id)}}" class="button delete-button">Supprimer</a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+<div class="container text-center add">
+  <a href="{{url_for('add_movie')}}" class="button">Ajouter Film</a>
+</div>
+
+{% endblock %}
