@@ -24,8 +24,7 @@
 ## Technologies Used 
 ### Programming Languages
 * Python 3.7.4
-* HTML  
-* CSS
+* HTML && CSS & JS  
 ### Frameworks and Libraries
 * Flask 1.1.1
 * WTForms
