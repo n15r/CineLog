@@ -1,55 +1,54 @@
-```markdown
-# 🎬 Movie Rating Web Application 🍿
+<div align="center">
+<h1> 🍿 CineLog</h1>
 
-Welcome to our Movie Rating Web Application! 🌟 This Flask-based app lets you dive into the world of movies, where you can search, rate, and review your favorite films. 🎥
+<p>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3.8%2B-blue.svg" alt="Python"></a>
+  <a href="https://flask.palletsprojects.com/"><img src="https://img.shields.io/badge/Flask-1.1.2-blue.svg" alt="Flask"></a>
+  <a href="https://www.sqlalchemy.org/"><img src="https://img.shields.io/badge/SQLAlchemy-1.3.23-blue.svg" alt="SQLAlchemy"></a>
+  <a href="https://wtforms.readthedocs.io/"><img src="https://img.shields.io/badge/WTForms-2.3.3-blue.svg" alt="WTForms"></a>
+  <a href="https://www.sqlite.org/"><img src="https://img.shields.io/badge/SQLite-3-blue.svg" alt="SQLite"></a>
+  <a href="https://www.themoviedb.org/documentation/api"><img src="https://img.shields.io/badge/MovieDBAPI-3-blue.svg" alt="Movie DB API"></a>
+  <a href="https://github.com/nashunch0/CineLog/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"></a>
+  <a href="https://github.com/nashunch0/CineLog"><img src="https://img.shields.io/github/stars/your-username/movie-rating-web-app.svg?style=social&label=Star" alt="GitHub stars"></a>
+  <a href="https://github.com/nashunch0/CineLog/fork"><img src="https://img.shields.io/github/forks/your-username/movie-rating-web-app.svg?style=social&label=Fork" alt="GitHub forks"></a>
+</p>
+</div>
+
 
 ## Technologies Used 🛠️
-- **Python** 🐍
-- **Flask** 🌐
-- **SQLAlchemy** 🗃️
-- **WTForms** 📝
-- **SQLite** 📦
-- **Movie DB API** 🎬
+### Programming Languages
+* **Python** 🐍
+
+### Frameworks and Libraries
+* **Flask** 🌐
+* **SQLAlchemy** 🗃️
+* **WTForms** 📝
+
+### Database
+* **SQLite** 📦
+
+### APIs
+* **Movie DB API** 🎬
 
 ## Application Structure 🏗️
-- **app.py**: The heart of our app, where Flask magic happens.
-- **models.py**: Defines our movie and user entities using SQLAlchemy.
-- **forms.py**: Contains WTForms for adding and rating movies.
-- **Templates**: Home to our stylish HTML templates.
+### Files
+* **app.py**: The heart of our app, where Flask magic happens.
+* **models.py**: Defines our movie and user entities using SQLAlchemy.
+* **forms.py**: Contains WTForms for adding and rating movies.
+
+### Directories
+* **templates/**: Home to our stylish HTML templates.
 
 ## Features ✨
-- **Search for movies** by title using the Movie DB API.
-- **Add movies** to the database with ease.
-- **Express your opinions** by rating and reviewing movies.
+### Movie Management
+* **Search for movies** by title using the Movie DB API.
+* **Add movies** to the database with ease.
+
+### User Interaction
+* **Express your opinions** by rating and reviewing movies.
 
 ## Setup and Installation 🚀
-1. **Clone the repository**.
-   ```bash
-   git clone https://github.com/your-username/movie-rating-web-app.git
-   cd movie-rating-web-app
-   ```
-2. **Install required Python packages**.
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Run the Flask application**.
-   ```bash
-   python app.py
-   ```
-4. **Open your web browser** and go to `http://localhost:5000` to enjoy the app.
-
-## Usage 🎮
-1. On the home page, type the title of a movie and click "Add Movie" to search for it.
-2. Choose a movie from the search results to add it to the database.
-3. After adding a movie, rate and review it by submitting a rating and review in the form.
-
-## Error Handling 🚨
-Rest assured! Our app gracefully handles errors, whether it's unexpected data from the Movie DB API or invalid user inputs. We make sure you're always in the loop with helpful error messages.
-
-## Future Improvements 🚀
-- Introduce **user authentication** for account creation and saving ratings and reviews.
-- Enhance movie search to allow filtering by **year, genre**, and more.
-- Display **top-rated movies** on the home page for a quick pick-me-up.
-
-Enjoy exploring movies with our fun and interactive Movie Rating Web Application! 🍿🎉
-```
+### Step 1: Clone the Repository
+```bash
+git clone https://github.com/your-username/movie-rating-web-app.git
+cd movie-rating-web-app
