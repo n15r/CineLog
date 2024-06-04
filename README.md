@@ -17,7 +17,7 @@
 
 
 ## Interface
-<img src="https://github.com/nashunch0/CineLog/blob/main/Screenshot.png" alt="Screenshot">
+<img src="https://github.com/nashunch0/CineLog/blob/main/Screenshot_new.png" alt="Screenshot">
 
 
 
