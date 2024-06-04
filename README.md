@@ -21,22 +21,22 @@
 
 
 
-## Technologies Used 🛠️
+## Technologies Used 
 ### Programming Languages
-* **Python** 🐍
-
+* Python 3.7.4
+* HTML  
+* CSS
 ### Frameworks and Libraries
-* **Flask** 🌐
-* **SQLAlchemy** 🗃️
-* **WTForms** 📝
-
+* Flask 1.1.1
+* WTForms
+* SQLAlchemy
+* Bootstrap 3.3.7
 ### Database
-* **SQLite** 📦
-
+* SQLite
 ### APIs
-* **Movie DB API** 🎬
+* **Movie DB API** 
 
-## Application Structure 🏗️
+## Application Structure
 ### Files
 * **app.py**: The heart of our app, where Flask magic happens.
 * **models.py**: Defines our movie and user entities using SQLAlchemy.
@@ -60,4 +60,14 @@
 * **Introduce user authentication for account creation and saving ratings and reviews.**
 * **Enhance movie search to allow filtering by year, genre, and more.**
 * **Display top-rated movies on the home page for a quick pick-me-up.**
+## Author
 
+👤 **Nassim Lachkar**
+
+* Email: nassim.lachkar@emsi-edu.ma
+* Github: [@nashunch0](https://github.com/nashunch0/)
+* LinkedIn: [-](-)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
