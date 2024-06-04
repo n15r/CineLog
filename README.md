@@ -53,8 +53,5 @@
 ### User Interaction
 * **Express your opinions** by rating and reviewing movies.
 
-## Setup and Installation 🚀
-### Step 1: Clone the Repository
-```bash
-git clone https://github.com/your-username/movie-rating-web-app.git
-cd movie-rating-web-app
+## Context
+  This project, conducted as part of the third year curriculum at the Moroccan School of Engineering Sciences 
