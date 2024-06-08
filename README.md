@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/nashunch0/CineLog/blob/main/OIG2.jpeg" alt="Logo CineLog" style="width:200px;height:200px;")>
+  <img src="https://github.com/nashunch0/CineLog/blob/main/OIG2.png" alt="Logo CineLog" style="width:200px;height:200px;")>
 <h1>  CineLog</h1>
 <p>Python Flask-Based Movie Rating Application </p>
 <p>
