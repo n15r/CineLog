@@ -17,8 +17,9 @@
 
 
 ## Interface
-<img src="https://github.com/nashunch0/CineLog/blob/main/Screenshot_new.png" alt="Screenshot">
-
+<div align="center">
+<img src="https://raw.githubusercontent.com/nashunch0/CineLog/main/demonstration.gif" alt="Screenshot">
+</div>
 
 
 ## Technologies Used 
