@@ -22,6 +22,7 @@ from forms import RateMovieForm, FindMovieForm
                                                                     #Needs to be decommented to run locally
 app = Flask(__name__)
 #app.config['SECRET_KEY'] = os.environ.get('FLASK_APP_KEY')         #THIS TOO
+app.config['SECRET_KEY'] = FLASK_APP_KEY #REMPLACE THIS
 Bootstrap5(app)
 
 
