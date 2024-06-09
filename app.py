@@ -12,9 +12,9 @@ import requests
 from models import db, Movie
 from forms import RateMovieForm, FindMovieForm
 
-#from dotenv import load_dotenv
+from dotenv import load_dotenv
 
-#load_dotenv()
+load_dotenv()
 
 FLASK_APP_KEY = os.environ.get("FLASK_APP_KEY")
 MOVIE_DB_API_KEY = os.environ.get("MOVIE_DB_API_KEY")
@@ -65,9 +65,7 @@ def add_movie():
         url = "https://api.themoviedb.org/3/search/movie"
         headers = {
              "accept": "application/json",
-            #"Authorization": f"Bearer {MOVIE_DB_BEARER_TOKEN}"
-   "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkMTkzNjNjYzQ2MDJhMDY4YzMwNjg3YzA0YjE0ZjBlZSIsInN1YiI6IjY2NTNkNzFlNjRlNGQxYWVmZTRjYTYxNCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ._h5nuDZE4IQkcC3BwKeqTvLjVUnKYxp8G67oZ3wIN9w"
-        }
+            "Authorization": f"Bearer {MOVIE_DB_BEARER_TOKEN}"        }
 
         params = {
             "query": movie_title,
@@ -127,9 +125,7 @@ def find_movie():
 
         headers = {
             "accept": "application/json",
-         #   "Authorization": f"Bearer {MOVIE_DB_BEARER_TOKEN}"
-               "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkMTkzNjNjYzQ2MDJhMDY4YzMwNjg3YzA0YjE0ZjBlZSIsInN1YiI6IjY2NTNkNzFlNjRlNGQxYWVmZTRjYTYxNCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ._h5nuDZE4IQkcC3BwKeqTvLjVUnKYxp8G67oZ3wIN9w"
-
+            "Authorization": f"Bearer {MOVIE_DB_BEARER_TOKEN}"
         }
 
 
