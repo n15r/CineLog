@@ -12,16 +12,16 @@ import requests
 from models import db, Movie
 from forms import RateMovieForm, FindMovieForm
 
-from dotenv import load_dotenv
+    #from dotenv import load_dotenv
 
-load_dotenv()
+    #load_dotenv()
 
-FLASK_APP_KEY = os.environ.get("FLASK_APP_KEY")
-MOVIE_DB_API_KEY = os.environ.get("MOVIE_DB_API_KEY")
-API_KEY = os.environ.get("API_KEY")
-
+    #FLASK_APP_KEY = os.environ.get("FLASK_APP_KEY")
+    #MOVIE_DB_API_KEY = os.environ.get("MOVIE_DB_API_KEY")
+    #API_KEY = os.environ.get("API_KEY")
+                                                                    #Needs to be decommented to run locally
 app = Flask(__name__)
-app.config['SECRET_KEY'] = os.environ.get('FLASK_APP_KEY')
+#app.config['SECRET_KEY'] = os.environ.get('FLASK_APP_KEY')         #THIS TOO
 Bootstrap5(app)
 
 
@@ -34,9 +34,9 @@ with app.app_context():
     db.create_all()
 
 MOVIE_DB_INFO_URL = "https://api.themoviedb.org/3/movie"
-#MOVIE_DB_BEARER_TOKEN = os.environ.get("MOVIE_DB_API_KEY")
-MOVIE_DB_BEARER_TOKEN = os.environ.get("MOVIE_DB_BEARER_TOKEN")
-API_KEY = os.environ.get("API_KEY")
+#MOVIE_DB_BEARER_TOKEN = os.environ.get("MOVIE_DB_API_KEY")      #^^^^
+#MOVIE_DB_BEARER_TOKEN = os.environ.get("MOVIE_DB_BEARER_TOKEN") #THIS ASWELL
+#API_KEY = os.environ.get("API_KEY")
 
 
 
