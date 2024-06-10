@@ -77,7 +77,10 @@
    
 3. **Set Up the API**  
    
-   You can get your TMDB key from their [website](https://www.themoviedb.org/) (you need to create an account if you don't have one), then create a .env file in the project directory and add your TMDB API key to it. The .env file should look like this: (friendly reminder to always encapsulate your API keys)
+   You can get your TMDB key from their [website](https://www.themoviedb.org/) (you need to create an account if you don't have one), then create a .env file in the project directory and add your TMDB API key to it.
+   
+   The .env file should look like this: (friendly reminder to always encapsulate your API keys)
+   
 <div align="center">
     <img src="https://github.com/n15r/CineLog/assets/130777185/5d13b4f9-02b3-43fa-ab57-0bb9419cceea" alt=".env screenshot">
 </div>
