@@ -12,17 +12,16 @@ import requests
 from models import db, Movie
 from forms import RateMovieForm, FindMovieForm
 
-    #from dotenv import load_dotenv
+    from dotenv import load_dotenv
 
-    #load_dotenv()
+    load_dotenv()
 
-    #FLASK_APP_KEY = os.environ.get("FLASK_APP_KEY")
-    #MOVIE_DB_API_KEY = os.environ.get("MOVIE_DB_API_KEY")
-    #API_KEY = os.environ.get("API_KEY")
-                                                                    #Needs to be decommented to run locally
+    FLASK_APP_KEY = os.environ.get("FLASK_APP_KEY")
+    MOVIE_DB_API_KEY = os.environ.get("MOVIE_DB_API_KEY")
+    API_KEY = os.environ.get("API_KEY")
+                                                                  
 app = Flask(__name__)
-#app.config['SECRET_KEY'] = os.environ.get('FLASK_APP_KEY')         #THIS TOO
-app.config['SECRET_KEY'] = FLASK_APP_KEY #REMPLACE THIS
+app.config['SECRET_KEY'] = os.environ.get('FLASK_APP_KEY')     
 Bootstrap5(app)
 
 
