@@ -18,7 +18,7 @@
 
 ## Interface
 <div align="center">
-  <img src="https://github.com/n15r/CineLog/assets/130777185/c2ae4f5c-a9d2-4869-8b22-0c4250fbfdb1" alt="Screenshot">
+  <img src="https://github.com/n15r/CineLog/blob/main/demonstration.gif" alt="Screenshot" style="width:80%;height:80%;">
 </div>
 
 
