@@ -18,7 +18,7 @@
 
 ## Interface
 <div align="center">
-<img src="https://raw.githubusercontent.com/nashunch0/CineLog/main/demonstration.gif" alt="Screenshot"  style="width:80%;height:80%;">
+<img src="https://raw.githubusercontent.com/nashunch0/CineLog/main/demonstration.gif" alt="Screenshot">
 </div>
 
 
