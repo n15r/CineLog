@@ -38,7 +38,7 @@
 #### APIs:
 * **Movie DB API** 
 
-## Application Strcture/Arborescence
+## Application Structure/Arborescence
 ```bash
 ├── app.py # => The heart of our app, where Flask magic happens.
 ├── forms.py # => Contains WTForms for adding and rating movies.
