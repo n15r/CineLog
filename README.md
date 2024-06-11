@@ -10,11 +10,12 @@
   <a href="https://www.sqlite.org/"><img src="https://img.shields.io/badge/SQLite-3-blue.svg" alt="SQLite"></a>
   <a href="https://www.themoviedb.org/documentation/api"><img src="https://img.shields.io/badge/MovieDBAPI-3-blue.svg" alt="Movie DB API"></a>
   <a href="https://github.com/nashunch0/CineLog/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"></a>
+<br>
+<br>  
+ <h2>  <a href="https://cinelog-zzt2.onrender.com">Live Demo</a> </h2>
 
 </p>
 </div>
-
-
 
 ## Interface
 <div align="center">
