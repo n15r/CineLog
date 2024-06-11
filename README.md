@@ -47,11 +47,7 @@
 │   └── movies-project.db
 ├── static
 │   ├── css
-│   │   ├── navbar.css
-│   │   ├── page.css
-│   │   ├── resultsnavbar.css
-│   │   ├── resultspage.css
-│   │   └── select.html
+│   │   └── files.css
 │   └── logo.png
 ├── templates
     ├── base.html
