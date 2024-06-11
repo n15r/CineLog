@@ -40,32 +40,27 @@
 
 ## Application Arborescence
 ```bash
-├── app.py
-├── forms.py
-├── models.py
-├── instance
+├── app.py # => The heart of our app, where Flask magic happens.
+├── forms.py # => Contains WTForms for adding and rating movies.
+├── models.py # => Defines our movie and user entities using SQLAlchemy.
+├── instance # => Holds the instanciated instant of the Movie DB
 │   └── movies-project.db
 ├── static
-│   ├── css
+│   ├── css # => Holds the css files
 │   │   └── files.css
 │   └── logo.png
-├── templates
+├── templates # => Home to the html/Jinga2 templates
     ├── base.html
     ├── add.html
     ├── catalogue.html
     ├── edit.html    
     └──  index.html
+└── media # => holds different media used throughout the program and readme
+   └── demo.gif
 ```
-## Application Structure
-### Files
-* **app.py**: The heart of our app, where Flask magic happens.
-* **models.py**: Defines our movie and user entities using SQLAlchemy.
-* **forms.py**: Contains WTForms for adding and rating movies.
 
-### Directories
-* **templates/**: Home to the html/Jinga2 templates
-* **static/**: Holds the css files
-## Features ✨
+## Features 
+
 ### Movie Management
 * **Search for movies** by title using the Movie DB API.
 * **Add movies** to the database with ease.
