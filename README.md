@@ -45,12 +45,14 @@
 * **forms.py**: Contains WTForms for adding and rating movies.
 
 ### Directories
-* **templates/**: Home to our stylish HTML templates.
-
+* **templates/**: Home to the html/Jinga2 templates
+* **static/**: Holds the css files
 ## Features ✨
 ### Movie Management
 * **Search for movies** by title using the Movie DB API.
 * **Add movies** to the database with ease.
+* **Delete movies** from the Db instance.
+* **Modify rating** change the rating and comment.
 
 ## Local Run
 
