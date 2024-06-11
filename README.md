@@ -70,7 +70,7 @@
    
 3. **Set Up the API**  
    
-   You can get your TMDB key from their [website](https://www.themoviedb.org/) (you need to create an account if you don't have one), then create a .env file in the project directory and add your TMDB API key to it.
+   You can get your TMDB key from their [website](https://www.themoviedb.org/documentation/api) (you need to create an account), then create a .env file in the project directory and add your TMDB API key to it.
    
    The .env file should look like this: (friendly reminder to always encapsulate your API keys)
    
