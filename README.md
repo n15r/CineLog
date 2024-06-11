@@ -52,16 +52,6 @@
 * **Search for movies** by title using the Movie DB API.
 * **Add movies** to the database with ease.
 
-### User Interaction
-* **Express your opinions** by rating and reviewing movies.
-
-## Features to be added 
-
-* **Introduce user authentication for account creation and saving ratings and reviews.**
-* **Enhance movie search to allow filtering by year, genre, and more.**
-* **Display top-rated movies on the home page for a quick pick-me-up.**
-
-
 ## Local Run
 
 1. **Clone and install prerequisites**
@@ -100,6 +90,15 @@ Press CTRL+C to quit
  * Debugger PIN: 646-082-58
 ```
 Go to your browser and input the link (or CTRL click on the link)
+
+
+## Features to be added 
+
+* **A Front-end overhaul.**
+* **Merge the add and select apps with the main page using some js magic.**
+* **Introduce user authentication for account creation and saving ratings and reviews.**
+* **Enhance movie search to allow filtering by year, genre, and more.**
+* **Display top-rated movies on the home page for a quick pick-me-up.**
 
 
 ## Context
