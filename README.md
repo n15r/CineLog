@@ -38,6 +38,28 @@
 #### APIs:
 * **Movie DB API** 
 
+## Application Arborescence
+```bash
+├── app.py
+├── forms.py
+├── models.py
+├── instance
+│   └── movies-project.db
+├── static
+│   ├── css
+│   │   ├── navbar.css
+│   │   ├── page.css
+│   │   ├── resultsnavbar.css
+│   │   ├── resultspage.css
+│   │   └── select.html
+│   └── logo.png
+├── templates
+    ├── base.html
+    ├── add.html
+    ├── catalogue.html
+    ├── edit.html    
+    └──  index.html
+```
 ## Application Structure
 ### Files
 * **app.py**: The heart of our app, where Flask magic happens.
