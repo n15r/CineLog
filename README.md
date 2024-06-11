@@ -25,17 +25,17 @@
 
 
 ## Technologies Used 
-### Programming Languages
+#### Programming Languages:
 * Python 3.7.4
-* HTML && CSS & JS  
-### Frameworks and Libraries
+* HTML & CSS & JS  
+#### Frameworks and Libraries:
 * Flask 1.1.1
 * WTForms
 * SQLAlchemy
 * Bootstrap 3.3.7
-### Database
+#### Database:
 * SQLite
-### APIs
+#### APIs:
 * **Movie DB API** 
 
 ## Application Structure
@@ -51,8 +51,8 @@
 ### Movie Management
 * **Search for movies** by title using the Movie DB API.
 * **Add movies** to the database with ease.
-* **Delete movies** from the Db instance.
-* **Modify rating** change the rating and comment.
+* **Delete movies** from the DB instance.
+* **Modify rating** and comments.
 
 ## Local Run
 
