@@ -71,7 +71,9 @@
 
 1. **Clone and install prerequisites**
    
-     Run in your terminal, you can copy this (On Windows, use `venv\Scripts\activate` instead)
+   Assuming you already have python and pip installed on your machine
+   
+   Run in your terminal, you can copy this (On Windows, use `venv\Scripts\activate` instead)
    ```bash
    sudo apt-get update # bash only
    git clone https://github.com/n15r/Cinelog.git
