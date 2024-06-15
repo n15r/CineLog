@@ -1,39 +1,68 @@
-{% extends 'base.html' %}
-{% block title %}CineRate{% endblock %}
+{% extends 'base.html' %} {% block title %}CineLog{% endblock %} {%block content
+%}
+<style>
+  .main-container {
+      background-image: url('https://github.com/n15r/CineLog/assets/130777185/ce007c57-27d1-4672-86c1-15c177ba8b41');
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  </style>
 
-{%block content %}
-<div class="container">
-  <h1 class="heading">CineRate</h1>
-  <p class="description">Mon Catalogue:</p>
+<div class="main-container">
+  <input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon" />
+<label for="menu-icon"></label>
+<nav class="nav">
+  <ul class="pt-5">
+    <li><a href="https://github.com/n15r" target="_blank">About</a></li>
+    <li>
+      <a
+        href="https://inboxpraveen.github.io/projects/all-projects.html"
+        target="_blank"
+        >All Projects</a
+      >
+    </li>
+    <li><a href="https://inboxpraveen.github.io/" target="_blank">Blogs</a></li>
+    <li>
+      <a href="https://inboxpraveen.github.io/" target="_blank">Contact</a>
+    </li>
+  </ul>
+</nav>
+  {# <div class="two">   
+    <img src="https://github.com/nashunch0/CineLog/raw/main/media/OIG2.png" alt="Logo" style="display: block; margin: auto; width:100px;height:100px;">
+    <h1><span class="add-text-background">Cinelog:</span>Movie Rating</h1>
 
-  {% for movie in movies %}
-  <div class="card">
-    <div class="front" style="background-image: url('{{movie.img_url}}');">
-      <p class="large">{{ movie.ranking }}</p>
-    </div>
-    <div class="back">
-      <div>
-        <div class="title">
-          {{movie.title}} <span class="release_date">({{movie.year}})</span>
-        </div>
-        <div class="rating">
-          <label>{{movie.rating}}</label>
-          <i class="fas fa-star star"></i>
-        </div>
-        <p class="review">"{{movie.review}}"</p>
-        <p class="overview">{{movie.description}}</p>
 
-        <!--BUTTONS TO CHANGE MOVIE-->
-        <a href="{{ url_for('rate_movie', id=movie.id) }}" class="button">Changer </a>
+<p class="line-1 anim-typewriter">Choose a Movie of your liking to rate.</p>
 
-          <a href="{{ url_for('delete_movie', id=movie.id)}}" class="button delete-button">Supprimer</a>
-      </div>
-    </div>
   </div>
-  {% endfor %}
-</div>
-<div class="container text-center add">
-  <a href="{{url_for('add_movie')}}" class="button">Ajouter Film</a>
-</div>
+   #}
+   <div class="two" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    <img src="https://github.com/nashunch0/CineLog/raw/main/media/OIG2.png" alt="Logo" style="width:15%;height:auto;">
+    <h1><span class="add-text-background">Cinelog:</span>Movie Rating</h1>
+    <p class="subheading">Choose a Movie of your liking to rate.</p>
+  </div>
+  <div class="three">
+    <button class="btn" onclick="location.href='{{url_for('add_movie')}}';">Add Movie</button>
+    
+    <span class="social-links-span">
+      <a target="_blank" href="https://inboxpraveen.github.io/"
+        ><i class="ti ti-user-circle"></i
+      ></a>
+      <a target="_blank" href="https://github.com/inboxpraveen"
+        ><i class="ti ti-brand-github"></i
+      ></a>
+      <a target="_blank" href="https://www.linkedin.com/in/praveen-kumar-inbox/"
+        ><i class="ti ti-brand-linkedin"></i
+      ></a>
+      <a target="_blank" href="https://twitter.com/InboxPraveen"
+        ><i class="ti ti-brand-twitter"></i
+      ></a>
+      <a target="_blank" href="https://medium.com/@inboxpraveen"
+        ><i class="ti ti-brand-medium"></i
+      ></a>
+    </span>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
 
-{% endblock %}
+  {% endblock %}
+</div>
