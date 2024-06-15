@@ -119,7 +119,7 @@ Go to your browser and input the link (or CTRL click on the link)
 
 
 ## Context
-  This project, conducted as part of the third year curriculum at the Moroccan School of Engineering Sciences 
+  This project, conducted as part of the third year curriculum at the Moroccan School of Engineering Sciences
   
 ## Author
 
